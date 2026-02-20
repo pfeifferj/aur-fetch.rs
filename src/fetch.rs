@@ -578,7 +578,7 @@ fn git_has_diff<S: AsRef<OsStr>, P: AsRef<Path>>(
 
         Ok(head != upstream)
     } else {
-        Ok(false)
+        Ok(true)
     }
 }
 
